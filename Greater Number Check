@@ -1,0 +1,30 @@
+// PROGRAM TO PRINT GREATER NUMBER OF THE 2 INPUTS IN C.
+
+#include <stdio.h>
+
+int main() 
+{
+    int num;// variable declaration
+    printf("Enter any number\n");
+    scanf("%d", &num); // taking input in variable
+   int num1;
+    printf("Enter another number\n");// taking input in variable
+    scanf("%d", &num1);
+  if(num>num1) // condition to check which number is greater
+  printf("%d is greater.", num);
+  else
+  printf("%d is greater.", num1);
+     return 0;
+}
+
+/* OUTPUT
+
+Enter any number
+5
+Enter another number
+6
+6 is greater.
+
+=== Code Execution Successful ===
+
+*/
